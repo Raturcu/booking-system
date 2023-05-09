@@ -10,7 +10,7 @@
         <div class="container">
             <div class="box form-box">
                 <?php
-                include(".php/connection.php")
+                include("php/connection.php")
                 if(isset($_POST['submit'])){
                     $username=$_POST['username'];
                     $email=$_POST['email'];
