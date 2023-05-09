@@ -10,7 +10,7 @@
         <div class="container">
             <div class="box form-box">
                 <?php
-                include("php/connection.php")
+                include("php/connection.php");
                 if(isset($_POST['submit'])){
                     $username=mysqli_real_escape_string($_POST['username']);
                     $password=mysqli_real_escape_string($_POST['password']);
