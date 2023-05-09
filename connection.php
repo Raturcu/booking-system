@@ -2,7 +2,7 @@
 $servername = "129.151.227.25";
 $username = "raturcu";
 $password = "Mangalia123!";
-$dbname = "admins";
+$dbname = "ratsystem";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
