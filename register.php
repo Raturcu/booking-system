@@ -9,6 +9,7 @@
     <body>
         <div class="container">
             <div class="box form-box">
+                <header>Register</header>
                 <?php
                 include("php/config.php");
                 echo"Conected!";
@@ -30,7 +31,6 @@
 
                 } 
                  ?>
-                <header>Register</header>
                 <form action="" method="post">
                     <div class="field input">
                         <label for="username">Username</label>
@@ -55,9 +55,9 @@
                         Already a member? <a href="login.php">Login In Now!</a>
                     </div>
                 </form>
-                 
+                <?php  } ?>
             </div>
-          <?php  } ?>
+          
         </div>
     </body>
 </html>
