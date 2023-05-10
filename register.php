@@ -56,10 +56,13 @@
                     <div class="field input">
                         <input type="submit" name="btn" value="Register" required>
                     </div>
+                    <div class="links">
+                        Already a member? <a href="login.php">Login In Now!</a>
+                    </div>
                 </form>
-                <?php } ?>  
+                 
             </div>
-             
+        <?php } ?> 
         </div>
     </body>
 </html>

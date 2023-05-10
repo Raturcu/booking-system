@@ -69,3 +69,6 @@ body{
 .submit{
     width: 100%;
 }
+.message{
+    background-color: red;
+}
