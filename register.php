@@ -9,8 +9,7 @@
     <body>
         <div class="container">
             <div class="box form-box">
-                <header>Register</header>
-                <?php
+            <?php
                 include("php/config.php");
                 echo"Conected!";
                 if(isset($_POST['submit'])){
@@ -39,6 +38,8 @@
                 }else{ 
 
                  ?>
+                <header>Register</header>
+                
                 <form action="" method="post">
                     <div class="field input">
                         <label for="username">Username</label>
