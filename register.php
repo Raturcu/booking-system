@@ -37,7 +37,7 @@
                 }
 
                 }else{ 
-                    
+
                  ?>
                 <form action="" method="post">
                     <div class="field input">
@@ -63,9 +63,9 @@
                         Already a member? <a href="login.php">Login In Now!</a>
                     </div>
                 </form>
-                <?php  } ?>
+                
             </div>
-          
+            <?php  } ?>
         </div>
     </body>
 </html>
