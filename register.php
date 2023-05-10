@@ -11,7 +11,7 @@
             <div class="box form-box">
                 <?php
                 include("php/config.php");
-                include("php/register.php");
+                include("php/script_register.php");
                 ?>
                 <header>Register</header>
                 <form action="" method="post">
