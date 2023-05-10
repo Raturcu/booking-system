@@ -22,15 +22,23 @@
 
                 $verify_query=mysqli_query($con, "SELECT email from administrators WHERE email='$email'");
                 if(mysqli_num_rows($verify_query)!=0){
-                    echo "Error";
-                    
+                    echo "<div class='message'>
+                            <p>This email is used, Try another one!</p>
+                            </div> <br>";
+                    echo "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
 
                 }
                 else{
                     mysqli_query($con,"INSERT INTO administrators(username,email,password_1,password_2) VALUES('$username','$email','$password_1',$password_2)") or die("ERROR!");
+                    echo "<div class='message'>
+                            <p>Registration successfully!</p>
+                            </div> <br>";
+                    echo "<a href='login.php'><button class='btn'>Login</button>";
+                }
 
-                } 
-            }?>
+                }else{ 
+                    
+                 ?>
                 <form action="" method="post">
                     <div class="field input">
                         <label for="username">Username</label>
@@ -55,7 +63,7 @@
                         Already a member? <a href="login.php">Login In Now!</a>
                     </div>
                 </form>
-            
+                <?php  } ?>
             </div>
           
         </div>
