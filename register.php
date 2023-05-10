@@ -57,8 +57,9 @@
                         <input type="submit" name="btn" value="Register" required>
                     </div>
                 </form>
+                <?php } ?>  
             </div>
-        <?php } ?>       
+             
         </div>
     </body>
 </html>
