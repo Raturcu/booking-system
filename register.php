@@ -28,7 +28,7 @@
 
                 }
                 else{
-                    mysqli_query($con,"INSERT INTO administrators(username,email,password_1,password_2) VALUES('$username','$email','$password_1',$password_2)") or die("ERROR!");
+                    mysqli_query($con,"INSERT INTO administrators(username,email,password_1,password_2) VALUES('$username','$email','$password_1','$password_2')") or die("ERROR!");
                     echo "<div class='message'>
                             <p>Registration successfully!</p>
                             </div> <br>";
